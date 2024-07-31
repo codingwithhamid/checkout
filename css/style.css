@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background: aqua;
+    margin: 0 10px;
+}
+
+.payment{
+    background: #fff;
+    max-width: 360px;
+    margin: 88px auto;
+  padding: 40px;
+    padding-top: 40px;
+  padding-top: 70px;
+  position: relative;
+  height: auto;
+  border-radius: 5px;
+}
+.payment h2{
+    margin-bottom: 40px;
+    text-align: center;
+  color: #0d3c64;
+  letter-spacing: 2px;
+}
+.form .label{
+  display: block; 
+  color: #555555;
+  margin-bottom: 6px;
+}
+.form input{
+  padding: 13px 0 13px 25px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #dddddd;
+  letter-spacing: 1px;
+  word-wrap: 3px;
+  outline: none;
+  font-size: 16px;
+  color: #555555;
+
+}
+.card-grap  {
+  display: flex;
+  justify-content: space-between;
+}
+.card-items{
+  width: 48%;
+}
+.space{
+  margin-bottom: 20px;
+}
+.icon-relative{
+  position: relative;
+}
+.icon-relative .bx{
+  position: absolute;
+  left: 15px;
+  transform: translateY(14px);
+  font-size: 20px;
+  color: #555;
+}
+.btn {
+  margin-top: 40px;
+text-align: center;
+padding: 12px;
+background: #2196f3;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
+.logo{
+  top: -50px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  transform: translatex(-50%);
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  line-height: 100px;
+}
+.logo::before{
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #2196f3;
+  width: 90px;
+  height: 90px;
+top: 5px;
+left: 5px;
+text-align: center;
+
+}
+.logo p{
+  color: #fff;
+position: relative;
+font-size: 62px;
+}
+
+
+
+
+@media screen and (max-width:420px) {
+  .card-grap{
+    flex-direction: column;
+  }
+  .card-items{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-bottom: 20px;
+  }
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="payment">
+            <div class="logo">
+                <p>p</p>
+            </div>
+
+            
+            <h2>Payment Gateway</h2>
+            <div class="form">
+                <div class="card space icon-relative">
+                    <label class="label">Card holder:</label>
+                    <input type="text" name="card_holder" placeholder="Coding Market">
+                    <i class='bx bxs-user'></i>
+                </div>
+
+
+                <div class="card space  icon-relative">
+                    <label class="label">Card Numer:</label>
+                    <input type="text" name="card_number" placeholder="Card Number" data-mask="0000 0000 0000">
+                    <i class='bx bx-credit-card' ></i>
+                </div>
+
+                <div class="card-grap space">
+                    <div class="card-items  icon-relative">
+                        <label class="label">Expiry date:</label>
+                        <input type="text" name="expiry_date" placeholder="00 / 00" data-mask="00 / 00">
+                        <i class='bx bxs-calendar' ></i>
+                    </div>
+                    <div class="card-items  icon-relative ">
+                        <label class="label">CVC:</label>
+                        <input type="text" name="cvc" placeholder="000" data-mask="000">
+                        <i class='bx bxs-lock' ></i>
+
+                    </div>
+                </div>
+                <div class="btn">pay</div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
