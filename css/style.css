@@ -52,6 +52,17 @@ body{
 .card-items{
   width: 48%;
 }
+.date{
+  width: 130%;
+}
+.cvc{
+  width: 70%;
+  margin-left: 30px;
+}
+#lock{
+  transform: translateY(-48px);
+  left: 9px;
+}
 .space{
   margin-bottom: 20px;
 }
@@ -103,6 +114,7 @@ text-align: center;
   color: #fff;
 position: relative;
 font-size: 62px;
+top: -10px;
 }
 
 
