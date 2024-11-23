@@ -76,15 +76,24 @@ body{
   font-size: 20px;
   color: #555;
 }
-.btn {
-  margin-top: 40px;
-text-align: center;
-padding: 12px;
+.btn button {
+text-align: center  ;
+width: 100%;
+padding: 10px;
 background: #2196f3;
 color: #fff;
 border-radius: 5px;
 cursor: pointer;
+border: 0;
+font-size: 20px;
 }
+.btn button:focus{
+  outline: 0;
+}
+ button:active{
+  transform: scale(0.98);
+}
+
 .logo{
   top: -50px;
   position: absolute;
